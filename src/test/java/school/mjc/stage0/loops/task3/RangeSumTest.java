@@ -15,15 +15,6 @@ class RangeSumTest extends BaseIOTest {
     }
 
     @Test
-    void printSumPrintsSumWhenFirstIsBigger() {
-        RangeSum sum = new RangeSum();
-
-        sum.printSumInclusive(100, 10);
-
-        assertOutEquals("5005\n");
-    }
-
-    @Test
     void printSumPrintsSumWhenEqual() {
         RangeSum sum = new RangeSum();
 
