@@ -8,6 +8,6 @@ public class FibonacciSeries {
             z=z+i;
             System.out.println(z);
         }
-        }
     }
+}
 

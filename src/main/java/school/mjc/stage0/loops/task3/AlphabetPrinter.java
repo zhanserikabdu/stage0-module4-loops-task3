@@ -7,6 +7,5 @@ public class AlphabetPrinter {
         for (first = 'a'; first <= second; first++){
             System.out.println(first);
         }
-
     }
 }
